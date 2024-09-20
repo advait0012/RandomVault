@@ -54,7 +54,7 @@ body {
   font-weight: 600;
 }
 
-div {
+.pass-generator {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,4 +88,16 @@ div {
   letter-spacing: 1.5px;
   transition: 1s ease;
   cursor: pointer;
+}
+
+@media screen and (max-width:417px){
+  .heading{
+    font-size: 2rem;
+  }
+  .pass-generator{
+    flex-direction: column;
+  }  
+  .display-password{
+    margin-bottom: 1rem;
+  }
 }
